@@ -53,7 +53,7 @@
     padding: 36px 16px 16px 16px;
     width: 45vw;
     height: auto;
-    background-color: #1a1a1a60;
+    background-color: #00000060;
     border-radius: 20px;
     border: 0.1px solid #ffffff41;
     transition: all 0.2s;
@@ -94,7 +94,7 @@
   }
   
   .mandatory {
-    color: #ff00e1;
+    color: hsl(119, 100%, 50%);
   }
 
   .winner1,.winner2,.winner3,.winner4,.winner5{
