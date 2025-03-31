@@ -12,6 +12,8 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import Loading from "./components/common/Loading/Loading";
 import Popup from "./components/common/Popup/Popup";
 import ReactGA from "react-ga";
+import SponsorPage from "./pages/SponsorPage";
+import Speaker from "./pages/Speaker";
 
 const TRACKING_ID = "UA-257375779-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
@@ -47,6 +49,8 @@ const App = () => {
             <Route path="/register" element={<Register />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/hidden" element={<Hidden />} />
+            <Route path="/sponsors" element={<SponsorPage/>} />
+            <Route path="/speakers" element={<Speaker />} />
           </Routes>
           <Footer />
         </>
